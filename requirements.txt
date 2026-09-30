@@ -1,0 +1,11 @@
+# Core runtime has no network or cloud dependency.
+PyQt6>=6.5
+
+# Optional: enables PDF text extraction and Chinese tokenisation.
+pypdf>=4.0
+jieba>=0.42
+
+# Optional integrations for deployments that want to mirror the architecture
+# described in the design document. The shipped fallback works without them.
+# langgraph>=0.2
+# qdrant-client>=1.9

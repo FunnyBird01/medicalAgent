@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+data/*.sqlite3
+data/*.sqlite3-*
+data/knowledge_index.json
+.pytest_cache/
